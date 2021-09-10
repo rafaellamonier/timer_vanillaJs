@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timer Egg</title>
+    <link rel="stylesheet" href="src/style/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="src/img/stopwatch.png" alt="imagem de um timer" width="180" height="180"> 
+        </header>
+        <main>
+            <form action="">
+                <input type="text" placeholder="Insira uma mensagem" class="inputForm">
+                <button type="button" class="buttonsInit">Iniciar</button> 
+            </form>
+            <p>
+                Experimente algumas dessas minutagem mais usadas no dia a dia.
+            </p>
+            <div class="container-buttons-minutes">
+                <button type="submit" class="buttonsTime">2 minutos</button> 
+                <button type="submit" class="buttonsTime">10 minutos</button> 
+                <button type="submit" class="buttonsTime">15 minutos</button> 
+                <button type="submit" class="buttonsTime">20 minutos</button> 
+                <button type="submit" class="buttonsTime">pomodoro</button> 
+                <button type="submit" class="buttonsTime">30 minutos</button> 
+                <button type="submit" class="buttonsTime">45 minutos</button> 
+                <button type="submit" class="buttonsTime">60 minutos</button>
+            </div>
+        </main>
+        <footer>
+            <p>Perguntas ou Feedbacks? Entre em contato <a href="https://www.instagram.com/eu.rafaellamonier/" target="_blanck"> <strong style="color: #26A6FE;">@rafaellamonier</strong></a></p>
+        </footer>
+    </div>
+
+    <!-- modal -->
+    <div class="containerM">
+        <section class="containerModal">
+            <header>
+                <button type="submit" class="close">
+                    <img 
+                    src="src/img/letra-x.png" 
+                    alt=""
+                    width="22" 
+                    height="22" 
+                    class="close"
+                    >
+                </button>
+            </header>
+            <main>
+                <h2 class="timerCount"></h2> 
+            </main>
+        </section>
+    </div>
+
+    <!-- link Scritp.js -->
+    <script src="src/js/script.js"></script>
+</body>
+</html>
